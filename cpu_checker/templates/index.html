@@ -1,0 +1,14 @@
+<h4>シングル</h4>
+<p>実行時間: {{ single_time }}[s]</p>
+
+<h4>マルチプロセス</h4>
+<p>実行時間: {{ mp_time }}[s]</p>
+
+<h4>マルチスレッド</h4>
+<p>実行時間: {{ mt_time }}[s]</p>
+
+<h4>CPU情報</h4>
+<pre style="background-color: lightgrey; padding: 16px;">
+$ cat /proc/cpuinfo
+{{ cpu_info }}
+</pre>
